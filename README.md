@@ -5,14 +5,10 @@ A professional Human-Computer Interaction (HCI) experiment designed to measure *
 ## 🚀 Overview
 This experiment implements a refined "Human Information Processing Loop." The system measures the time delta between stimulus presentation and the user's keystroke, providing quantitative data for HCI analysis.
 
----
-
 ## 🛠 Features
 - **Choice Reaction Time Model**: Differentiation between alphanumeric categories.
 - **Real-time Metrics**: Immediate feedback on individual and average reaction times.
 - **Minimalist Design**: High-contrast interface to reduce cognitive noise and focus on performance.
-
----
 
 ## 🧪 Experimental Design
 
@@ -20,18 +16,12 @@ This experiment implements a refined "Human Information Processing Loop." The sy
 The system presents a random character in a high-visibility box. 
 - **Goal**: Rapidly identify whether the stimulus is a **Letter [A-Z]** or a **Number [0-9]**. 
 
-> [!TIP]
-> **Action Required:** [INSERT SCREENSHOT OF A LETTER STIMULUS]
-> *Suggested: Start the test and capture the moment a large letter (e.g., 'E') appears in the white box.*
-
 ### B. Decision (Response Selection)
 Once identified, the user must map the stimulus to a specific key:
 - **Letter** → Press **'A'**
 - **Number** → Press **'N'**
 
 This implements a "Choice Reaction Time" model, where the complexity of the response selection stage impacts the total reaction time.
-
----
 
 ## 📊 Quantitative Analysis
 
@@ -55,27 +45,14 @@ document.addEventListener("keydown", function (event) {
 });
 ```
 
----
-
 ## 🎨 Design System
 The UI is optimized for peak readability and minimal distraction:
 - **Background**: Soft slate color (`#f0f4f8`) to reduce eye strain.
 - **Typography**: Heavy weight (900) for the stimulus to ensure instant recognition.
 - **Visual Feedback**: Real-time results badge for immediate performance awareness.
 
-> [!TIP]
-> **Action Required:** [INSERT SCREENSHOT OF THE RESULTS]
-> *Suggested: Perform 5-10 trials and capture the "Average Reaction Time" badge at the bottom.*
-
----
-
 ## 💡 HCI Reflection
 Through this experiment, we observe the **Human Information Processing Loop**. Results typically show that reaction times stabilize as the user develops "Muscle Memory" (procedural knowledge), effectively reducing the cognitive load of the Decision stage.
-
-> [!IMPORTANT]
-> **Stimulus-Response Incompatibility:** Try swapping the keys in your mind (e.g., press 'N' for Letters). You will likely notice a significant increase in RT due to the increased cognitive friction.
-
----
 
 ## 🛠 Getting Started
 1. Open `index.html` in any modern web browser.
